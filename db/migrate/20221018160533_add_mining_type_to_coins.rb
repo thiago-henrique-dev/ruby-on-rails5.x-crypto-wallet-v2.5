@@ -1,5 +1,5 @@
 class AddMiningTypeToCoins < ActiveRecord::Migration[5.2]
   def change
-    add_column :coins, :mining_type, :reference
+    add_reference :coins, :mining_type, foreign_key: true
   end
 end

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_10_18_154415) do
+ActiveRecord::Schema.define(version: 2022_10_18_160533) do
 
 # Could not dump table "coins" because of following StandardError
 #   Unknown type 'reference' for column 'mining_type'
