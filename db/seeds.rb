@@ -8,27 +8,23 @@
 
 puts "Cadastrando moedas..."
 
-Coin.create!(
-    description: "Bitcoin",
-    acronym: "BTC",
-    url_image: "https://imagensemoldes.com.br/wp-content/uploads/2020/09/Logo-Bitcoin-PNG.png",
+coins =   [
+    {   description: "Bitcoin",
+        acronym: "BTC",
+        url_image: "https://imagensemoldes.com.br/wp-content/uploads/2020/09/Logo-Bitcoin-PNG.png",
+    },
+    {   description: "Etherum",
+        acronym: "ETH",
+        url_image: "https://upload.wikimedia.org/wikipedia/commons/b/b7/ETHEREUM-YOUTUBE-PROFILE-PIC.png",
+    },
+    {   description: "Dash",
+        acronym: "DASH",
+        url_image: "https://w7.pngwing.com/pngs/853/418/png-transparent-logo-dash-cryptocurrency-ethereum-steemit-ripple-coin-blue-text-trademark.png",
+    }
+]
 
-)
-
-
-Coin.create!(
-    description: "Etherum",
-    acronym: "ETH",
-    url_image: "https://upload.wikimedia.org/wikipedia/commons/b/b7/ETHEREUM-YOUTUBE-PROFILE-PIC.png",
-    
-)
-
-
-Coin.create!(
-    description: "Dash",
-    acronym: "DASH",
-    url_image: "https://w7.pngwing.com/pngs/853/418/png-transparent-logo-dash-cryptocurrency-ethereum-steemit-ripple-coin-blue-text-trademark.png",
-    
-)
+coins.each do |coin|
+  Coin.find_or_create_by!(coin)
+end
 
 puts "Moedas cadastradas com sucesso!"
