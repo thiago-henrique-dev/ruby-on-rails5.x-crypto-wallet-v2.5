@@ -4,13 +4,17 @@
     <title>CryptoWallet</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    <%= stylesheet_link_tag    params[:controller], 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag   'scaffolds', 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag params[:controller], 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-    <h1>CABEÇALHO</hi>
+    <h1>CABEÇALHO <%= params[:controller] %></hi>
     <%= yield %>
     <h1>RODAPÉ</hi>
   </body>
