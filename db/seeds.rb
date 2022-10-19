@@ -1,1 +1,1 @@
-# Use o rails dev:setup (lib/tasks/dev.rake.)
+# Use o rails dev:setup (lib/tasks/dev.rake).

@@ -1,0 +1,12 @@
+pt-BR:
+  hello: "Olá mundo"
+  links:
+    edit: "Editar"
+    show: "Mostrar"
+    create: "Criar"
+    delete: "Deletar"
+    back: "Voltar"
+    confirm: "Tem certeza disso?"
+
+
+
