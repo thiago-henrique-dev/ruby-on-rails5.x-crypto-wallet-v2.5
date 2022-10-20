@@ -1,4 +1,10 @@
 GEM
+  remote: https://rails-assets.org/
+  specs:
+    rails-assets-jquery (3.6.1)
+    rails-assets-notifyjs (0.4.2)
+
+GEM
   remote: https://rubygems.org/
   specs:
     actioncable (5.2.8.1)
@@ -213,6 +219,8 @@ DEPENDENCIES
   pry-rails
   puma (~> 3.11)
   rails (~> 5.2.8, >= 5.2.8.1)
+  rails-assets-jquery!
+  rails-assets-notifyjs!
   rails-i18n (~> 5.1)
   sass-rails (~> 5.0)
   selenium-webdriver
@@ -226,7 +234,7 @@ DEPENDENCIES
   web-console (>= 3.3.0)
 
 RUBY VERSION
-   ruby 2.5.9p229
+   ruby 2.5.1p57
 
 BUNDLED WITH
    2.3.24
