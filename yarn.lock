@@ -2,3 +2,29 @@
 # yarn lockfile v1
 
 
+grunt-contrib-concat@~0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/grunt-contrib-concat/-/grunt-contrib-concat-0.3.0.tgz#48fa0d4336d29b653ad8225a6bd6f856b4483e32"
+  integrity sha512-w5N63mMgEYAEhd9PgY8uQ0pY02SucTSwq8XRTtHyEt7MSMQLlp7lF0g5oaXSav9xCWY9GPM0RqlJTT2gS+8n3Q==
+
+jquery-notify-legacy@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/jquery-notify-legacy/-/jquery-notify-legacy-0.3.2.tgz#69818411daa58bd5b978c5694001c1c496a5c6c7"
+  integrity sha512-VfsG21pbK2HhPrF+zXz8zJ6AJf85AY/5UlAKm7/5HOZsjGvNQb7vA5bzNAU8DCdCZelroXsHTqhYi9ypL6+SJg==
+  dependencies:
+    grunt-contrib-concat "~0.3.0"
+
+jquery@^3.6.1:
+  version "3.6.1"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.6.1.tgz#fab0408f8b45fc19f956205773b62b292c147a16"
+  integrity sha512-opJeO4nCucVnsjiXOE+/PcCgYw9Gwpvs/a6B1LL/lQhwWwpbVEVYDZ1FokFr8PRc7ghYlrFPuyHuiiDNTQxmcw==
+
+notify-js-legacy@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/notify-js-legacy/-/notify-js-legacy-0.4.1.tgz#d8cd3a03a16de5018b469ed578f9cd0a5d98afa7"
+  integrity sha512-v9tUdioFeizt2Y+wD9Vg4MWN8zbX5BTLfjHMO9UBKKLODZSsfnlV+MWONWVldB6sXqvg3AbaYB407WxnmYZk/g==
+
+notifyjs@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/notifyjs/-/notifyjs-3.0.0.tgz#7418c9d6c0533aebaa643414214af53b521d1b28"
+  integrity sha512-N3OZt+DsTClAG9DiWrbWBGlsDpDrc50F1qQ+iFl3DBeQg7W7nS4vXmD8WQrGK13RGRyXOGlqsDIenTbK6EJw7A==

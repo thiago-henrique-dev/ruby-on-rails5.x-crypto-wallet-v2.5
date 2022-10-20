@@ -1,5 +1,15 @@
 {
   "name": "crypto",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "jquery": "^3.6.1",
+    "jquery-notify-legacy": "^0.3.2",
+    "notify-js-legacy": "^0.4.1",
+    "notifyjs": "^3.0.0"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/thiago-henrique-dev/ruby-on-rails-crypto-waller-v2.5.git",
+  "author": "thiagohenriquedev <thiagohenriquedev>",
+  "license": "MIT"
 }
