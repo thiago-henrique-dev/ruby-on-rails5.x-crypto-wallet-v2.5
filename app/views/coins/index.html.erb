@@ -1,8 +1,7 @@
 <p id="notice"><%= notice %></p>
 <%= data_br(Date.today)%>
-<h1>Moedas</h1>
-<h2><%= cookies[:curso]%></h2>
-<h2><%= session[:user_name]%></h2>
+<h1><%= Coin.model_name.human(count: @coins.count)%></h1>
+
 
 <table class="table table table-hover">
   <thead>
@@ -22,7 +21,7 @@
         <td> <%= image_tag coin.url_image, width:25, height:25  %></td>
         <td><%= link_to t('links.show'), coin %></td>
         <td><%= link_to t('links.edit'), edit_coin_path(coin) %></td>
-        <td><%= link_to t('links.delete'), coin, method: :delete, data: { confirm: 'Tem certeza?' } %></td>
+        <td><%= link_to t('links.delete'), coin, method: :delete, data: { confirm: t('messages.confirm') } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -30,4 +29,4 @@
 
 <br>
 
-<%= link_to 'Nova moeda', new_coin_path %>
+<%= link_to t('links.new'), new_coin_path, class: "btn btn-dark" %>

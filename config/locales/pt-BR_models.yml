@@ -4,7 +4,7 @@
       coin:
         one: Moeda
         other: Moedas
-      mining-type: 
+      mining_type: 
         one: Tipo de Mineração
         other: Tipos de Mineração
     attributes:

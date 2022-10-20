@@ -35,6 +35,7 @@ en:
   messages:  
     welcome: "This is Crypto Wallet, this is an app for you to register and track your cryptocurrencies"
     menu: "To get started select one of the options below"
+    confirm: "Are you sure?"
   hello: "Hello world"
   links:
     edit: "Edit"
@@ -43,3 +44,4 @@ en:
     delete: "Delete"
     back: "back"
     confirm: "are you sure about that?"
+    new: "New"
