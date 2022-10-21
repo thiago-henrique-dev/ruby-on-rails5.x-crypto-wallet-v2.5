@@ -22,6 +22,9 @@ pt-BR:
   showing:
     coin: "Monstrando Moeda"
     mining_type: "Mostrando Tipo de Mineração"
+  coin:
+    description: "Descrição"
+    acronym: "Sigla"
 
 
 

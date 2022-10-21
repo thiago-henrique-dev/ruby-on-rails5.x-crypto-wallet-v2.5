@@ -1,14 +1,16 @@
 <p id="notice"><%= notice %></p>
 
+<h1><%= t('showing.coin')%></h1>
+</br>
 <p>
-  <strong>Description:</strong>
+  <strong><%= t('coin.description')%></strong>
   <%= @mining_type.description %>
 </p>
 
 <p>
-  <strong>Acronym:</strong>
+  <strong><%= t('coin.acronym')%></strong>
   <%= @mining_type.acronym %>
 </p>
 
-<%= link_to t('links.edit'), edit_mining_type_path(@mining_type) %> |
-<%= link_to t('links.back'), mining_types_path %>
+<%= link_to t('links.edit'), edit_mining_type_path(@mining_type), class: "btn btn-primary" %> |
+<%= link_to t('links.back'), mining_types_path, class: "btn btn-primary" %>
