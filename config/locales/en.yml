@@ -45,3 +45,12 @@ en:
     back: "back"
     confirm: "are you sure about that?"
     new: "New"
+  new:
+    coin: "New Coin"
+    mining_type: "New Mining Type"
+  editing: 
+    coin: "Editing Coin"
+    mining_type: "Editing Mining Type"
+  showing:
+    coin: "Showing Coin"
+    mining_type: "Showing Mining Type"
